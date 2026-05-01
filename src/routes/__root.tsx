@@ -37,6 +37,10 @@ export const Route = createRootRoute({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Космос — Вселенная и Пустота" },
+      { name: "twitter:description", content: "Иммерсивное путешествие сквозь бесконечность, тишину и гравитацию чёрной дыры." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2fe40f69-dd1d-4c27-bb55-3c97103fcc42/id-preview-8da5dde8--a058e171-7299-41ac-8fa2-58f23b0183fb.lovable.app-1777672102517.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2fe40f69-dd1d-4c27-bb55-3c97103fcc42/id-preview-8da5dde8--a058e171-7299-41ac-8fa2-58f23b0183fb.lovable.app-1777672102517.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
